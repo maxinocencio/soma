@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#box1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background: #fff;
+    width: 40vw;
+    height: 40vh;
+    border-radius: 20px;
+}
+
+#contentbox {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#confere {
+    margin-top: 7%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*84.77 38.8*/
+button {
+    width: 20%;
+    height: 4.2vh;
+    padding: 0;
+    border: 1px solid black;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+    margin: 0 0 0 5px;
+}
+
+input {
+    width: 20%;
+    height: 4vh;
+    padding: 0;
+    border: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 10px;
+    border-radius: 20px;
+    margin: 0 5px 0 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 1vh;
+}
+
+#value {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#resultado {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    margin-top: 7%;
+}
